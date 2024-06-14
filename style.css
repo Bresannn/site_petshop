@@ -1,0 +1,155 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+h2,
+h3{
+    font-family: "Taviraj", serif;
+    font-weight: 100;
+    font-style: normal ;
+    margin: 0;
+}
+
+header h1{
+    margin-left: 15px;
+    font-size:50px ;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #ffe3c3;
+}
+
+header{
+    background-color: orange;
+    color: orangered;
+}
+
+header nav li{
+    font-weight: 400;
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+h2{
+    font-weight: 400;
+    font-size: 30px;
+    color: orangered;
+}
+
+header li a {
+    text-decoration: none;
+    color: rgb(255, 68, 0);
+}
+
+.container{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .sobre{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .sobre{
+    align-items: flex-start;
+}
+
+section{
+    max-width: 1200px;
+    padding: 24px,0;
+}
+
+section h2{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+section p{
+    margin-bottom: 8px;
+}
+
+section img{
+    height: 700px;
+    width:1000px ;
+    margin-top: 20px;
+    margin-right: 32px;
+}
+
+.social-midia img{
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+}
+
+.social-midia li{
+    display: inline;
+    margin-right: 8px;
+}
+
+#contact .contato{
+    display: block;
+}
+
+.contact-methods{
+    justify-content: space-between;
+    display: flex;
+}
+
+form input,
+form textarea,
+form button{
+    margin-left: 30px;
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+}
+
+section h3{
+    margin-left: 30px;
+    height: 180px;
+}
+
+form button{
+    background-color: orangered;
+    color:#ffe3c3;
+    border: none;
+    cursor: pointer ;
+}
+
+form button:hover{
+    background-color: rgb(243, 101, 50);
+}
+
+#contact .contato p{
+    margin-left: 30px;
+}
+
+h3{
+    font-weight: 400;
+    color: orangered;
+    font-size: 20px;
+}
+
+#about img{
+    margin-left: 20px;
+}
+
+#contact .contato h2{
+    margin-left: 8px;
+    color: orange;
+}
